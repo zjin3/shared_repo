@@ -20,6 +20,10 @@ The first step is to read the image file in python as array data (for instance `
       print('> loaded %s %s' % (filename, img_data.shape))
 ```   
 
+<img src="images/different-shapes.png" width="480">
 
-then in order to use the keras module in python to analyse the data, we need to reshape the 
+
+In order to use the keras module in python to analyse the images data, the second step we need to do is to reshape all images so that they have the same size:
+
+
 
